@@ -1,0 +1,850 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+    --font_Mont :  'Montserrat', sans-serif;
+    --font_Arvo: 'Arvo', serif;
+    --font-sans:"Open Sans", sans-serif;
+}
+.container {
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(10,auto); 
+    height: auto;
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "two"
+      "one"
+      "three"
+      "five"
+      "four"
+      "nine"
+      "eight"
+      "seven"
+      "ten"
+      "elivin"; 
+  }
+
+.one {
+    grid-area: one; 
+    background-color: rgb(255, 255, 255);
+}
+
+.two { 
+    grid-area: two;
+    background-color:rgb(247, 248, 249);
+}
+.three { 
+    grid-area: three;
+    background-color: rgb(240, 86, 56);
+    
+}
+.four { 
+    grid-area: four;
+    background-color: rgb(255, 255, 255);
+}
+
+.five { 
+    grid-area: five; 
+    background-color: rgb(250, 250, 250);
+}
+
+.seven { 
+    grid-area: seven; 
+    background-color: rgb(143, 118, 188);
+}
+
+.eight { 
+    grid-area: eight; 
+    background-color: #93B6B7;
+}
+
+.nine { 
+    grid-area: nine; 
+    background-color: rgb(56, 213, 244);
+}
+
+.ten { 
+    grid-area: ten; 
+    background-color: rgb(247, 248, 249);
+}
+
+.elivin {
+    grid-area: elivin; 
+    background-color: rgb(44, 44, 44);
+}
+/* - - - - - - - - - - - -  - - - - - - - -  */
+.onee {
+    display: block;
+}
+.onee .txt{
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    line-height: 1.4;
+}
+.onee .txt h4{
+    font-family: var(--font_Mont);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9DA9B0; 
+    font-size: 12px;
+}
+.onee .txt h3{
+    font-family : var(--font_Arvo);
+    font-weight: 200;
+    font-size: 25px;
+}
+.onee .txt p{
+    padding: 10px 100px 10px 0;
+    color: #9FA3A7;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: var(--font-sans);
+}
+.onee  .photo1{
+    padding-top: 30px;
+    /* overflow: hidden; */
+    padding-left: 80px;
+    width: 100%;
+}
+.onee .photo1 img{
+    width: 70%;
+}
+/*  ---------------------------------------------    one     ----------------------------------------- */
+
+.twoo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.twoo p{
+    font-family: var(--font_Mont);
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #9DA9B0; 
+    padding: 20px;
+    font-weight: bold;
+    font-size: 11px;
+}
+.twoo h1{
+    font-family:var(--font_Arvo);
+    font-weight: 100;
+    font-size: 40px;
+    padding: 0 60px 15px 60px ;
+}
+.twoo a{
+    color: rgb(8, 169, 169);
+    font-size: 15px;
+}
+/* ---------------------------------------------    two     ----------------------------------------- */
+
+.three .photto{
+    padding-top: 60px;
+    
+}
+.three .photto img{
+    width: 90%;
+    filter: drop-shadow(4px 3px 10px rgba(0, 0, 0, 0.6));
+}
+.three{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.three strong{
+    font-family:var(--font_Arvo) ;
+    color: white;
+    font-size: 22px;
+}
+.three h3{
+    padding: 0 50px 30px 50px;
+}
+.three a {
+    font-family:var(--font-sans) ;
+    text-decoration: none;
+    color: rgb(255, 200, 10);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.three a::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-left: 5px; 
+}
+/* three */
+
+.fivee{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fivee .ph img{
+    width: 80%;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.fivee .txtt h3{
+    padding-top: 30px;
+    font-weight: 100;
+    font-size: 21px;
+    padding-bottom: 40px;
+    font-family: var(--font_Arvo);
+}
+.fivee a {
+    font-family:var(--font-sans) ;
+    text-decoration: none;
+    color: rgb(56, 213, 244);
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.fivee a::after {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-left: 5px; 
+}
+
+/* -- --- -- --- -- --- -- --- -- --- -- --- five -- --- -- --- -- --- -- --- -- --- -- ---  */
+.seven{
+    padding-bottom: 150px;
+}
+.seven .circle{
+    margin-top: 70px;
+    width: 380px;
+    left: 25px;
+    height: 380px;
+    background-color: #8166B0;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.seven .circle .bd{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(139, 114, 182);
+    border-radius: 20px;
+    position: absolute;
+    top: 30px;
+    left: 32%;
+}
+.seven .circle .bd p{
+    font-family: var(--font-sans);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+.seven .circle .bd p::before {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f024"; 
+    color: #FFD43B;
+    margin-right: 5px; 
+}
+.seven .circle  .ig img{
+    width: 60%;
+    position: absolute;
+    top: 80px;
+    left: 70px;
+}
+.seven .circle h4{
+    position: absolute;
+    bottom: 40px;
+    left: 44%;
+    color: white;
+    font-family: var(--font_Mont);
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.svtxt{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.svtxt h2{
+    font-family: var(--font_Arvo);
+    font-size: 30px;
+}
+.svtxt p{
+    font-family: var(--font-sans);
+    padding: 5px 50px;
+    line-height: 25px;
+    font-size: 14px;
+}
+.seven a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-family: var(--font-sans);
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.seven button{
+    margin-left: 130px;
+    background-color: rgb(255, 200, 10);
+    width: 170px;
+    height: 60px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+/* ------------------------------------------------- seven ---------------------------------------------- */
+.nine
+{
+    padding-bottom: 300px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nine .cir{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(53, 207, 237);
+    border-radius: 50%;
+}
+.nine .cir .phnine img{
+    width: 20%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+.nine .cir  h3{
+    color: white;
+    position: absolute;
+    left: 10px;
+    top: 45%;
+    text-align: center;
+    font-weight: 100;
+    font-family: var(--font_Arvo);
+    font-size: 25px;
+}
+/* ------------------------------------------------------ nine -------------------------------------------------- */
+.ten{
+    position: relative;
+    overflow: hidden;
+}
+.ten .cr{
+    left: 50%;
+    top: 45px;
+    transform: translateX(-50%);
+    position: absolute;
+    width:80px;
+    height: 20px;
+    background-color: rgb(123, 196, 36);
+    border-radius: 5px;
+}
+.ten .cr p{
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    font-size: 9px;
+}
+.ten .textten{
+
+    text-align: center;
+    padding: 80px 70px ;
+    /* position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%); */
+}
+.ten .textten h3{
+    font-size:25px;
+    font-weight: 200;
+    font-family: var(--font_Arvo);
+}
+
+/* TEN */
+.elivin{
+    overflow: hidden;
+    padding-top:40px;
+    padding-bottom: 20px;
+
+}
+.elivin .head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.elivin .head .tv {
+    width: 100%;
+
+}
+.elivin .head .tvtxt {
+    width: 100%;
+    color: white;
+    padding-right: 20px;
+}
+.elivin .head .tvtxt h3 {
+    font-family: var(--font_Arvo);
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    padding: 0 25px;
+}
+.elivin .head .tv img {
+    width:70%;
+    margin-top: -40px;
+
+}
+/* elivin */
+.eight{
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 150px;
+}
+
+.eight .eicir{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width:100px;
+    height: 20px;
+    background-color: rgb(250, 104, 79);
+    border-radius: 5px;
+}
+.eight .eicir p{
+    padding-top: 3px;
+    text-align: center;
+    font-size: 9px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: var(--font-sans);
+    font-weight: 700;
+}
+.eight h2{
+    text-align: center;
+    font-family: var(--font_Arvo);
+    font-size: 30px;
+    padding :20% 10% 10% 10%;
+    color: white;
+}
+.eight .phe img{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+}   
+
+/* eight */
+
+.fouur{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.part1{
+    padding-top: 40px;
+    width: 100%;
+    position: relative;
+}
+.part1 .text {
+    padding: 20px 80px 10px 20px;
+}
+.part1 .text h3 {
+    font-family: var(--font_Arvo);
+    font-size: 25px;
+    font-weight: 100;
+}
+.part1 .text p {
+    font-family: var(--font_Mont);
+    letter-spacing: 2px;
+    color: gray;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+.part2{
+    width: 100%;
+    padding-bottom: 30px;
+}
+img{
+    width: 100%;
+}
+.part1 .imag img {
+    margin-left: -130px;
+    margin-top: 20PX;
+    /* position: absolute;
+    bottom: 10px;
+    right: 20px; */
+}
+.part2 .texxt{
+    padding: 40px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.part2 p{
+    font-family: var(--font-sans);
+    color: #9FA3A7;
+    font-size: 18px;
+}
+.part2 a{
+    padding: 40px;
+    text-decoration: none;
+    font-family: var(--font-sans);
+    color: #27B9C2;
+    font-size: 17px;
+    font-weight: 600;
+}
+.part2 a::after{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    content: "\f105";
+    margin-left: 5px; 
+}
+
+/* Four */
+
+/* small devices */
+@media (min-width: 640px){
+
+    
+
+}
+/* medium devices */
+@media (min-width: 768px){
+    .container {
+        grid-template-columns: 1fr 1fr ;
+        /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ; */
+        grid-template-rows: repeat(6,auto) ;
+        height: auto;
+        grid-template-areas:
+        "two two"
+        "one one"
+        "three five"
+        "four four "
+        "nine seven"
+        "eight seven"
+        "ten  ten"
+        "elivin elivin";
+    }
+    .onee {
+        display: flex;
+        background-color: rgb(255, 255, 255);
+    }
+    .onee .txt{
+        width: 50%;
+        padding-top: 80px;
+        padding-left: 50px;
+        line-height: 1.4;
+    }
+    .onee  .photo1{
+        overflow: hidden;
+        padding-top: 80px;
+        width: 50%;
+    }
+    .fouur{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* align-items: center; */
+        overflow: hidden;
+    }
+
+    .part1{
+        width: 60%;
+    }
+    .part1 .text {
+        padding: 50px 80px;
+    }
+    .part2{
+        width: 40%;
+    }
+
+    .part1 .imag img {
+        margin-left: -180px;
+        margin-top: 20px;
+    }
+    .part2 .texxt{
+        padding: 80px 60px 40px 0;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .part2 p{
+        font-size: 13px;
+    }
+    .nine .cir{
+        padding-bottom: 0;
+        position: absolute;
+        left: 70px;
+        top: 70px;
+    }
+    .nine .cir .phnine img{
+        width: 20%;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .nine .cir  h3{
+        position: absolute;
+        left: 10px;
+        top: 45%;
+    }
+    .elivin{
+        padding-top:0;
+        padding-bottom: 0;
+    }
+    .elivin .head{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+    .elivin .head .tv {
+        width: 45%;
+    
+    }
+    .elivin .head .tvtxt {
+        width: 40%;
+        color: white;
+        padding-right: 20px;
+    }
+
+}
+/* large devices */
+@media (min-width: 1024px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: tomato;
+        height: 180vh;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "one one two two"
+        "one one two two"
+        "three four four seven"
+        "three four four seven"
+        "five eight eight seven"
+        "five eight eight seven"
+        "nine ten elivin elivin";
+    }
+    .onee {
+        display: flex;
+        justify-content: space-around;
+    }
+    /*   */
+    .onee .txt{
+        width: 50%;
+        padding-top: 80px;
+        padding-left: 90px;
+        line-height: 1.4;
+    }
+    .onee .txt h3{
+        font-family : var(--font_Arvo);
+        font-weight: 200;
+        font-size: 25px;
+        padding-right: 50px;
+    }
+    .onee .txt p{
+        padding: 10px 30px 10px 0;
+    }
+    .onee  .photo1{
+        overflow: hidden;
+        padding-top: 80px;
+        width: 50%;
+    }
+    .onee .photo1 img{
+        width:80%;
+    }
+
+    /*  */
+
+    .part1 .imag img{
+        margin-left: -180px;
+        margin-top: 0;
+    }
+
+    /* two */
+    .twoo{
+        padding-bottom: 0px;
+    }
+    .twoo h1{
+
+        font-size: 50px;
+        padding: 0 100px 15px 100px ;
+    }
+
+    /* three */
+    .three{
+        padding-bottom: 0px;
+    }
+    /* four */
+    
+    .fouur{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* align-items: center; */
+        overflow: hidden;
+    }
+
+    .part1{
+        width: 60%;
+    }
+    .part1 .text {
+        padding: 50px 80px;
+    }
+    .part2{
+        width: 40%;
+    }
+
+    .part1 .imag img {
+        margin-left: -180px;
+        margin-top: 20px;
+        /* position: absolute;
+        bottom: 10px;
+        right: 20px; */
+    }
+    .part2 .texxt{
+        padding: 80px 60px 40px 0;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+    .part2 p{
+        font-size: 13px;
+    }
+    /* five */
+    .five{
+        padding-bottom: 0;
+    }
+
+    /* seven */
+    .seven{
+        padding-bottom: 0px;
+    }
+    .seven .circle{
+        margin-top: 70px;
+        left: 0px;
+        
+    }
+    .seven button{
+        margin-left: 110px;
+    }
+    /* eight  */
+    .eight{
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 0;
+    }
+    .eight h2{
+        padding :20% 25% 10% 25%;
+    }
+    .eight .phe img{
+
+        right: 60px;
+    }   
+    
+    /*  */
+    .nine .cir{
+        padding-bottom: 0;
+        position: absolute;
+        left: 50px;
+        top: -20px;
+        width: 250px;
+        height: 250px;
+        background-color: rgb(53, 207, 237);
+        border-radius: 50%;
+    }
+    .nine .cir .phnine img{
+        width: 20%;
+        position: absolute;
+        top: 50px;
+        left: 100px;
+    }
+    .nine .cir  h3{
+        color: white;
+        position: absolute;
+        left: 10px;
+        top: 45%;
+        text-align: center;
+        font-weight: 100;
+        font-family: var(--font_Arvo);
+        font-size: 25px;
+    }
+    .eight .eicir{
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width:100px;
+        height: 20px;
+        background-color: rgb(250, 104, 79);
+        border-radius: 5px;
+    }
+
+    .eight .phe img{
+        width: 90%;
+        position: absolute;
+        bottom: 0;
+        right: 120px;
+    }   
+    
+    .eight h2{
+        text-align: center;
+        font-family: var(--font_Arvo);
+        font-size: 25px;
+        padding :10% 25% 10% 25%;
+        color: white;
+    }
+    .elivin .head .tvtxt h3 {
+        font-family: var(--font_Arvo);
+        font-size: 25px;
+        font-weight: 100;
+    
+    }
+    .nine{
+        padding: 0;
+    }
+    .elivin{
+        padding-top:0;
+        padding-bottom: 0;
+    }
+    .elivin .head{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    }
+    .elivin .head .tv {
+        width: 45%;
+    
+    }
+    .elivin .head .tvtxt {
+        width: 40%;
+        color: white;
+        padding-right: 20px;
+    }
+}
+/* extra large devices */
+@media (min-width: 1280px){
+
+
+}
+/* extra extra large devices */
+@media (min-width: 1536px){
+
+    
+
+}
